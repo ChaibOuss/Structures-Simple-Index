@@ -11,6 +11,7 @@ void main()
  srand(time(NULL));//Modifie la «graine» utilisée par le « générateur de nombres pseudo-aléatoires » de rand. Par défaut, cette graine a la valeur 1.
 int choix1,choix2,matricule,adresse,position,nb_lect,trouv,quitter1,quitter2,cout,commit_test;
 commit_test = 0;
+commit_test--;
 char nom[20];
 LnOF *fich_donne=malloc(sizeof(LnOF));//cree le fichier de donnees de la partie 1
 LnOF *fich_donne2=malloc(sizeof(LnOF));//cree le fichier de donnees de la partie index
